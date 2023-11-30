@@ -1,0 +1,42 @@
+.Nav_Container {
+  position: sticky;
+  top: 0;
+  height: 6rem;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left_Side {
+    display: flex;
+    align-items: center;
+    .nav_Links {
+      display: flex;
+      list-style: none;
+      .nav-Link {
+        margin-left: 2rem;
+        font-weight:500;    
+        & a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+  .right_Side {
+    margin-right: 5rem;
+    font-weight:500;  
+    .nav_usernamr,
+    .logout_Button {
+      margin-right: 2rem;
+    }
+    .logout_Button{
+        border: none;
+        background-color: red;
+        color: white;
+        font-weight: 500;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.add_Employee_Form {
+  width: 46%;
+  height: 100%;
+  padding: 4rem;
+  margin-left: 6rem;
+    .form_Group{
+        display: flex;
+        padding: 0.5rem;
+        .form_Subgroup{
+            display: flex;
+        }
+    }
+    .add_Name, 
+    .form_Subgroup,
+    .form_Select{
+        margin-left: 5rem;
+    }
+    .form_Select{
+        width: 170px;
+    }
+    .field_Label{
+        width: 15rem;
+        display: inline-block;
+    }
+    .form_Button{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .submit_Button{
+            border: none;
+            background-color: green;
+            color: white;
+            padding: 0.5rem;
+            width: 5rem;
+            cursor: pointer;
+        }
+    }
+}

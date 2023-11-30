@@ -1,0 +1,50 @@
+.login-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: gray;
+  .login_Container {
+    height: max-content;
+    padding: 5px;
+    width: 30rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    .login,
+    .password {
+      width: 15rem;
+      margin: 1rem;
+      padding: 5px;
+    }
+    .password {
+      margin-left: 26px;
+    }
+    .login_Button {
+      width: 15rem;
+      margin-left: 95px;
+      background-color: lightgreen;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      padding: 5px;
+      font-weight:bolder ;
+    }
+  }
+  .account {
+    text-align: center;
+    margin-top: 2rem;
+    .create_Account {
+      cursor: pointer;
+      color: red;
+    }
+  }
+  .notification{
+    font-weight: bold ;
+    color: royalblue;
+  }
+}
