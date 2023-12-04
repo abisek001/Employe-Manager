@@ -222,7 +222,7 @@ function Create_Employee() {
           </div>
           <br />
           <div className="form_Group">
-            <label htmlFor="file" className="field_Label">
+            <label htmlFor="file" className="field_Label filelable">
               Upload Image
             </label>
             <input

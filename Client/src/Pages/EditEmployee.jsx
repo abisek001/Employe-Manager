@@ -252,7 +252,7 @@ function EditEmployee() {
           </div>
           <br />
           <div className="form_Group">
-            <label htmlFor="file" className="field_Label">
+            <label htmlFor="file" className="field_Label filelable">
               Upload Image
             </label>
             <input
@@ -267,7 +267,8 @@ function EditEmployee() {
           </div>
           <br />
           <div className="form_Button">
-            <input type="submit" className="submit_Button" />
+            {/*  <input type="submit" className="submit_Button"/> */}
+            <button className="submit_Button" type="submit">Update</button>
             <p>{message}</p>
           </div>
         </form>
